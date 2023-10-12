@@ -399,4 +399,63 @@ body {
       top: 50%; 
       opacity: 1;
     }
-} 
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+
+@media (max-width:1000px) {
+    .page-header, .page-main, .computers, .purpose, .phones {
+        max-width: 500px;
+    }
+
+    .page-footer {
+        height: 320px;
+    }
+
+    .promo, .computers-container, .purpose, .phones, .phones-container, .footer-container {
+        flex-direction: column;
+    }
+
+    .promo-image, .promo-text, .promo-button, .computers-container, .computers-item, .computers-title, .item-link, .purpose-image, .purpose-button, .purpose-text, .phones-container, .phones-title, .phones-item {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .item-description, .footer-container, .connect, .copyright, .socials {
+        text-align: center;
+    }
+
+    .purpose-text, .promo-text, .footer-container {
+        width: 400px;
+    }
+
+    .computers-item, .phones-item {
+        margin-bottom: 50px;
+        padding-left: 80px;
+    }
+
+    .connect {
+        order: 1;
+        margin-bottom: 30px;
+    }
+
+    .copyright {
+        order: 3;
+    }
+
+    .copyright-text { 
+        margin-left: 170px;
+        position: relative;
+        top: 10px;
+    }
+
+    .socials  {
+        order: 2;
+    }
+
+    .socials-title {
+        margin-left: 60px;
+    }
+
+    .socials-container {
+        padding-left: 165px;
+    }
+}
